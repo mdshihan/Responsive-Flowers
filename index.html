@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Flowers Website</title>
-    <link rel="stylesheet" href="style.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+<script src="https://kit.fontawesome.com/974ff8ac9c.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="noto-serif-font">
     <header>
-        <nav class="navbar">
-            
+        <nav class="navbar width flex ">
+            <img src="assets/logo.png" alt="Website Logo">
+            <div class="cart-section flex ">
+                <div class="nav-ancor">
+                <a class="black-1" href="">Home</a>
+                <a class="text-gray" href="">Shop</a>
+                <a class="text-gray" href="">About Us</a>
+                </div>
+                <div class="cart-div">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <a class="black-1" href="">Cart (56$)</a>
+                </div>
+                </div>
+            </div>
         </nav>
+
+        <div class="banner flex width">
+            <div class="banner-text">
+                <h2 class="banner-title">ALWAYS <span class="orangy">FRESH FLOWERS</span></h2>
+                <P class="text-gray">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</P>
+            </div>
+            <div class="banner-img">
+                <img src="assets/hero-flower.png" alt="flower image">
+            </div>
+        </div>
+
     </header>
 
     <main>
