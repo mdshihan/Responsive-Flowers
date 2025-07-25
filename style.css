@@ -95,10 +95,23 @@ h3{
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
+/* lover section  */
+.lover-sec{
+    margin-top: 215px;
+    gap: 60px;
+}
 
-
-
-
+.shop-title{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.shop-details{
+    max-width: 560px;
+    font-size: 1.5rem;
+}
+li{
+    margin-top: 5px;
+}
 /* responsive style */ 
 @media  screen and (max-width:456px) {
     body{
@@ -134,5 +147,11 @@ h3{
     .plant-title{
             text-align: center;
         }
+
+        /* lover section  */
+    .lover-sec{
+        flex-direction: column;
+    }
+    
 }
 
