@@ -33,7 +33,7 @@
 .btn{
     background-color:#E95A08 ;
     height: 50px;
-    width: 270px;
+    width: 100%;
 }
 /* navbar styles */
 .navbar{
@@ -57,6 +57,7 @@
 .banner{
     margin-top: 120px;
 }
+
 .banner-title{
     font-size: 4rem;
 }
@@ -173,16 +174,27 @@ footer{
 
 /* responsive style */ 
 @media  screen and (max-width:456px) {
+    .width{
+        max-width: 100%;
+        margin: auto;
+    }
 
     .navbar{
         justify-content: space-between;
     }
-
     .banner-title{
         font-size: 2.5rem;
     }
     .nav-ancor{
         display: none;
+    }
+
+    /* banner section  */
+    .banner-text{
+    width: 100%;
+}
+    .banner-img img{
+        max-width: 100%;
     }
 /* responsive the banner */
     .banner{
@@ -192,22 +204,27 @@ footer{
      /* card section  */
     .cards{
         width: calc(100% - 30px);
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 0.5fr);
         margin:0px 15px;
     }
+.plant-card img{
+    max-width: 100%;
 
-    .plant-subtitle{
-        padding: 0px 8px;
-        width: 100%;
-        box-sizing: border-box;
     }
     .plant-title{
-            text-align: center;
+            margin: auto;
         }
 
         /* lover section  */
+
     .lover-sec{
         flex-direction: column;
+        border-top: 30px;
+    }
+    
+
+    .join-title{
+        font-size: 20px
     }
 
     /* footer styles  */
@@ -222,5 +239,10 @@ footer{
     .icons-container{
         margin-top: 40px;
     }
+    /* joint section  */
+    .input{
+        width: 218px;
+    }
 }
+
 
