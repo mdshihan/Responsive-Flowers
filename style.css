@@ -240,6 +240,10 @@ footer{
     .join-title{
         font-size: 20px
     }
+    .main-pic{
+        border-top: 30px;
+       max-width:330px;
+    }
 
     /* footer styles  */
     footer{
@@ -256,6 +260,11 @@ footer{
     /* joint section  */
     .input{
         width: 218px;
+    }
+
+    /* challange secton  */
+    .trust-logo{
+        display: none;
     }
 }
 
