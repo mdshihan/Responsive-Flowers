@@ -172,6 +172,20 @@ footer{
     margin-left: 20px;
 }
 
+
+
+/* challenge section  */
+.lover-sec{
+    position: relative;
+}
+ .trust-logo{
+    height:auto;
+    width: 200px;
+    position: absolute;
+    top: -90px;
+    right: 500px ;
+ }
+
 /* responsive style */ 
 @media  screen and (max-width:456px) {
     .width{
@@ -221,7 +235,7 @@ footer{
         flex-direction: column;
         border-top: 30px;
     }
-    
+
 
     .join-title{
         font-size: 20px
