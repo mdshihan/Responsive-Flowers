@@ -67,6 +67,9 @@ body{
 
     .nav-ancor{
         display: none;
-        
+    }
+/* responsive the banner */
+    .banner{
+        flex-direction: column-reverse;
     }
 }
